@@ -1,0 +1,26 @@
+Sección I. Creación y actualización de repositorios
+Ejercicio 1
+Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la
+salida. Mostrar la configuración final.
+Ejercicio 2
+Crear un repositorio nuevo con el nombre libro y mostrar su contenido.( git init)(git status)
+Ejercicio 3
+Comprobar el estado del repositorio.(git status)
+Crear un archivo indice.txt con el siguiente contenido:(crear un hoja de texto nueva)
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+Comprobar de nuevo el estado del repositorio.(git status)
+Añadir el archivo a la zona de intercambio temporal -> area de preparacion.(git add (nombre del archivo))
+Volver a comprobar una vez más el estado del repositorio.(git status)
+Ejercicio 4
+Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado
+del repositorio.(git commit -m “Añadido índice del libro”)(git status)
+Ejercicio 5
+Cambiar el archivo indice.txt para que contenga lo siguiente:(reescribir el archivo)
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos
+Mostrar los cambios con respecto a la última versión guardada en el repositorio.(git diff)
+Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”(git commit -m e “Añadido capítulo 3 sobre gestión de ramas”)
